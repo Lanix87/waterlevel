@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-iq!g8=!v-p^vkvc=k=80biu--@!o(xvi_pj9nmv*#zy=gc9@%z
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['level.voda.te.ua']
+ALLOWED_HOSTS = ['127.0.0.1','level.voda.te.ua']
 
 
 # Application definition
