@@ -110,7 +110,7 @@
         function drawChart() {
             // Дані для графіка (масив масивів)
             var data = google.visualization.arrayToDataTable([
-                ['Місяць', 'Годин'],
+                ['Місяць', 'Год'],
                 ['6', 3.6],
                 ['7', 4.1],
                 ['8', 3.8],
@@ -121,9 +121,7 @@
             // Опції графіка
             var options = {
                 title: 'За місяць',
-                chartArea: { width: '50%' },
-                hAxis: { title: 'Year', minValue: 0 },
-                vAxis: { title: 'Score', minValue: 0 },
+                chartArea: { width: '70%' },
                 bars: 'vertical' // Вказуємо вертикальні стовбці
             };
 
@@ -140,7 +138,7 @@
         function drawChart() {
             // Дані для графіка (масив масивів)
             var data = google.visualization.arrayToDataTable([
-                ['День', 'Годин'],
+                ['День', 'Год.'],
                 ['01', 3.6],
                 ['02', 4.1],
                 ['03', 3.8],
@@ -151,9 +149,7 @@
             // Опції графіка
             var options = {
                 title: 'За день',
-                chartArea: { width: '50%' },
-                hAxis: { title: 'Year', minValue: 0 },
-                vAxis: { title: 'Score', minValue: 0 },
+                chartArea: { width: '70%' },
                 bars: 'vertical' // Вказуємо вертикальні стовбці
             };
 
