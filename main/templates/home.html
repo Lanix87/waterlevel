@@ -73,6 +73,9 @@
 <body>
 <div class="container">
     <div class="row">
+        <div class="col-sm-12" >Оновлено - {{ updated_at }}</div>
+    </div>
+    <div class="row">
         <div class="col-sm-8" style="width: 80%">
             <div class="row row-chart" >
             <div class="col-sm-4 ">
@@ -175,7 +178,7 @@
             progressBar.textContent = value + '%';
         }
 
-        updateProgressBar(77)
+        updateProgressBar({{level}})
 
     </script>
 </body>
